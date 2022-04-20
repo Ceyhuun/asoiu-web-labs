@@ -1,0 +1,186 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+}
+.border{
+    border: 1px solid black;
+}
+
+.body{
+    border: 1px solid blue;
+    border-top: 0px;
+
+}
+.title{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 700;
+    padding: 30px 0;
+    color: blue;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects .project{
+    padding: 30px;
+    border: 1px solid blue;
+    font-size: 2em;
+    color: blue;
+    font-weight: 700;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.events{
+    display: flex;
+    flex-direction: column;
+}
+
+.event{
+    margin-bottom: 5px;
+    border: 1px solid blue;
+    padding: 20px;
+    color: blue;
+    font-size: 2em;
+}
+
+.banner, .highlights{
+    border: 1px solid blue;
+    color: blue;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.banner{
+    height: 30%;
+}
+
+.highlights{
+    height: 70%;
+}
+
+nav{
+    padding: 30px 0;
+    background-color: blue;
+}
+
+.nav-items{
+    display: flex;
+}
+
+.nav-item{
+    margin-right: 20px;
+}
+
+.nav-item a{
+    color: #fff;
+    font-size: 2em;
+}
+
+.about-project, .contact,.about{
+    border: 1px solid blue;
+    padding: 30px;
+}
+
+.about-project .image{
+    height: 200px;
+    float: left;
+    margin-right: 5px;
+}
+
+.about-project .image img{
+    height: 200px;
+}
+.about-project .text{
+    font-size: 1.5em;
+    color: blue;
+}
+
+.contact-form{
+    padding: 30px 0;
+}
+.contact-items{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-items .contact-item{
+    margin-bottom: 10px;
+    color: blue;
+    font-size: 2em;
+}
+
+.input{
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+input,textarea{
+    border: none;
+    outline: none;
+    font-size: 1.5em;
+    color: blue;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+label{
+    font-size: 1.5em;
+    color: blue;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.profile-image{
+    height: 200px;
+}
+
+.profile-image img{
+    height: 200px;
+}
+
+.profile-desc{
+    padding: 20px;
+    color: blue;
+}
+
+.profile-desc .name,.profile-desc .profession{
+    font-size: 2.5em;
+}
+
+.certificates, .skills{
+    margin: 20px 0;
+}
+
+.certificates .title,.skills .title{
+    padding: 10px 0;
+    font-size: 2em;
+    font-weight: 400;
+    text-align: start;
+    text-transform: uppercase;
+}
+
+.about ul li{
+    font-size: 1.5em;
+    color:blue;
+
+}
+

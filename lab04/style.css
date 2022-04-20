@@ -1,0 +1,8 @@
+.calculate-button{
+    width: 75px;
+    height: 25px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
